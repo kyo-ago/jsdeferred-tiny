@@ -1,0 +1,23 @@
+{
+  "name": "jsdeferred-tiny",
+  "version": "0.0.1",
+  "description": "forked from enchant.Deferred. Not use the \"try\".",
+  "main": "lib/Deferred.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kyo-ago/jsdeferred-tiny.git"
+  },
+  "devDependencies": {
+    "karma": "~0.10.4",
+    "karma-mocha": "~0.1.0",
+    "bower": "~1.1.2"
+  },
+  "author": "kyo_ago",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/kyo-ago/jsdeferred-tiny/issues"
+  }
+}
