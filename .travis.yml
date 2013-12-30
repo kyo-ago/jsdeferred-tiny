@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - 0.10
+
+script:
+  - karma start karma.travis.js.conf
+
+after_success
+  - karma start karma.travis.js.conf --reporters coverage

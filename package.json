@@ -13,7 +13,9 @@
   "devDependencies": {
     "karma": "~0.10.4",
     "karma-mocha": "~0.1.0",
-    "bower": "~1.1.2"
+    "karma-expect": "~1.0.0",
+    "karma-coverage": "~0.1.4",
+    "karma-sinon": "~1.0.0"
   },
   "author": "kyo_ago",
   "license": "MIT License",
