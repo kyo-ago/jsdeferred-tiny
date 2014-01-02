@@ -1,6 +1,8 @@
 Deferred.js
 -------
 
+[![Build Status](https://travis-ci.org/kyo-ago/jsdeferred-tiny.png?branch=master)](https://travis-ci.org/kyo-ago/jsdeferred-tiny)
+
 forked from [enchant.js/README.md at master · wise9/enchant.js · GitHub](https://github.com/wise9/enchant.js/blob/master/README.md) enchant.Deferred.
 
 Test using karma, Mocha, expect.
