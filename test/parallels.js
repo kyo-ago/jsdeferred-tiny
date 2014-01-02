@@ -17,6 +17,7 @@ describe('parallel', function () {
 		clock.tick(100);
 	});
 	it('#objectArgument', function () {
+		var stub = sinon.stub();
 		Deferred.parallel({
 			one: Deferred.next(function() {
 				return 1;
@@ -28,10 +29,9 @@ describe('parallel', function () {
 				return 3;
 			})
 		})
-		.next(function(obj) {
-			expect(obj).to.eql({ one: 1, two: 2, three: 3 });
-		});
+		.next(stub);
 		clock.tick(100);
+		expect(stub.args[0][0]).to.eql({ one: 1, two: 2, three: 3 });
 	});
 	it('#Error', function () {
 		var stub = sinon.stub();
