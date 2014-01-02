@@ -5,5 +5,5 @@ node_js:
 script:
   - karma start karma.travis.js.conf
 
-after_success
+after_success:
   - karma start karma.travis.js.conf --reporters coverage
